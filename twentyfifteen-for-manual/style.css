@@ -1,0 +1,66 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       toiee Lab
+ Author URI:   http://example.com
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+body
+{
+font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/* nav */
+
+li.current_page_item > a {
+    font-weight: bold;
+    text-decoration: underline ;    
+    color: #fff205;
+}
+
+li.current_page_item > a:before{
+    content: " >> ";
+    font-weight: bold;
+    text-decoration: underline ;    
+    color: #fff205;
+}
+
+.page_item {
+  list-style: none;
+  line-height: 1.8em;
+  color: white;
+}
+
+.page_item a {
+    color: rgb(255, 255, 255);   
+}
+
+.page_item a:hover {
+    color: #fff205;
+}
+
+ul.toc-pages a{
+  font-size:0.9em;
+}
+
+ul.toc-pages > li > a{
+    font-size: 1.3em;
+    display: block;
+    padding-top: 1.2em;
+    font-weight: bold;
+}
+
+
+
+body:before{
+    background-color: rgb(0, 11, 137);
+
+}
+
