@@ -20,10 +20,11 @@ if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar(
 				<?php
 					
 					$q = array (
-							'post_type' => 'page',
-							'meta_key' => 'menu_exclude',
-							'meta_value' => 1,
-							'compare' => '='
+							'post_type'		=> 'page',
+							'meta_key'		=> 'menu_exclude',
+							'meta_value'	=> 1,
+							'compare' 		=> '=',
+							'posts_per_page' => -1
 						);
 
 					$the_query = new WP_Query( $q );
